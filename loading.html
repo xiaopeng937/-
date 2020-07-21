@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="Expires" content="0">
+		<meta http-equiv="Cache-Control" content="no-cache">
+		<meta http-equiv="Pragma" content="no-cache">
+		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no,minimum-scale=1,maximum-scale=1,viewport-fit=cover">
+		<meta name="format-detection" content="telephone=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<script type="text/javascript" src="js/jquery-3.4.1.js"></script>
+		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" href="css/loading.css" />
+		<script type="text/javascript" src="js/loading.js" ></script>
+		<title>加载页面</title>
+	</head>
+
+	<body>
+		<audio  id="bg-music" src="img/music/GameMusic.mp3" loop="loop" autoplay="autoplay" style="display: none;"></audio>
+		<div>
+			<div class="head">
+				<img src="img/musicOn.png" id="showOn" style="display: block;" />
+				<img src="img/musicOff.png" id="showOff" style="display: none; " />
+			</div>
+
+			<div id="content">
+				<div id="loadBar01" class="loadBar">
+				<div>
+					<span class="percent">
+						<img src="img/JDT.png" id="Ing" />
+		                <i></i>
+		          	</span>
+		          	<img src="img/JDT100.png" id="img" />
+				</div>
+					<span class="percentNum">0%</span>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>
